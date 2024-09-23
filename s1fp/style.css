@@ -1,3 +1,36 @@
 body{
-    background-color: purple;
+    background-image: url("space.jpeg");
+    overflow:hidden;
 }
+
+#dot{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-image: url("dot.webp");
+    background-size: 1000px, 1000px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    box-shadow: 0 0 90px 20px black inset;
+}
+
+#introText{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    color: #0adb53;
+  }
+
+ .text{
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+    text-align: left;
+    /* width: 100px;
+    line-height: 100px; */
+  } 
+
+
+
