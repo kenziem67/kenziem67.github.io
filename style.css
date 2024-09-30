@@ -18,23 +18,74 @@ body{
     box-shadow: 0 0 90px 50px black inset;
 }
 
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    background-color: transparent;
+    border:4px solid transparent;
+    position: relative;
+    left: 58%;
+    top: 30%;
+}
+
 #introText{
     font-size: 100px;
+  }
+
+ .text{
+    font-size: 50px;
+    position: absolute;
+    bottom: 90%;
+    text-align: left;
     font-weight: bold;
     font-family: serif;
     font-style: italic;
     color: #0adb53;
-  }
-
- .text{
-    position: absolute;
-    text-align: left;
   } 
 
   #dot:hover{
     background-image: url("paleBlueDot.jpg");
     border: 0px;
   }
+
+  #dot:hover #circle{
+    border-color: red;
+  }
+
+  #globe{
+    width: 800px;
+    height: 800px;
+    border-radius:50%;
+    background-image: url("earth.jpg");
+    background-size: 800px, 800px;
+    position: absolute;
+    top:10%;
+    left:25%;
+  }
+
+  #secondHereWrap{
+    font-size: 100px;
+    text-decoration-line: underline;
+    width:280px;
+    height:100px;
+    position:absolute;
+    left: 200px;
+    top: -30px;
+    background-color: transparent;
+    text-wrap:balance;
+    overflow:hidden;
+  }
+
+  #secondHereWrap:hover{
+    position: absolute;
+    left: 200px;
+    top: 45px;
+    width:400px;
+    transform: rotate(20deg);
+  }
+
+  
   
 
 
