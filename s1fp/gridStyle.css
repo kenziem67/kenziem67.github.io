@@ -1,0 +1,7 @@
+body{
+    background-image: url("map.png");
+    overflow:hidden;
+    background-size: 2250px;
+    background-position-x: -5px;
+    background-position-y: -40px;
+}
