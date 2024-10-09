@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    overflow:hidden;
+}
+
+/* holds all albums */
+#imageWrapper {
+    width: 100vw;
+    height: 20vw;
+    margin-top: 30vw;
+    background-color: transparent;
+}
+
+/* euphoros */
+#reflections{
+    background-image: url("reflections.png");
+    background-size: 20vw;
+    position:relative;
+    left: 0%;
+    width: 20vw;
+    height: 20vw;
+}
+
+/* king */
+#danceFever{
+    background-image: url("dancefever.png");
+    background-size: 20vw;
+    position:relative;
+    left: 20%;
+    width: 20vw;
+    height: 20vw;
+    top: -300%;
+}
+
+/* teddy picker */
+#favoriteWorstNightmare{
+    background-image: url("monkeys.png");
+    background-size: 20vw;
+    position:relative;
+    left: 40%;
+    width: 20vw;
+    height: 20vw;
+    top: -400%;
+    
+}
+
+/* wildflower */
+#hitMeHardAndSoft{
+    background-image: url("billie.png");
+    background-size: 20vw;
+    position:relative;
+    left: 60%;
+    width: 20vw;
+    height: 20vw;
+    top: -100%;
+}
+
+/* sweet thing */
+#diamondDogs{
+    background-image: url("bowie.png");
+    background-size: 20vw;
+    position:relative;
+    left: 80%;
+    width: 20vw;
+    height: 20vw;
+    top: -200%;
+}
