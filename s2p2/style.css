@@ -3,12 +3,23 @@ body{
     overflow:hidden;
 }
 
+
 /* holds all albums */
 #imageWrapper {
     width: 100vw;
     height: 20vw;
+    position: relative;
+    left: 0%;
+    background-color: red;
+}
+
+#featuredAlbum{
+    width: 20vw;
+    height: 20vw;
     margin-top: 30vw;
-    background-color: transparent;
+    margin-left: 40vw;
+    background-color: green;
+    overflow:hidden;
 }
 
 /* euphoros */
@@ -64,4 +75,142 @@ body{
     width: 20vw;
     height: 20vw;
     top: -200%;
+}
+
+
+#songOneButton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 39.5vw;
+    top: 30vw;
+}
+
+#songOneButton:checked ~ #featuredAlbum > #imageWrapper{
+    left: 0%;
+} 
+
+#songTwoButton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 40vw;
+    top: 30vw;
+
+}
+
+#songTwoButton:checked ~ #featuredAlbum > #imageWrapper {
+    left: -100%;
+} 
+
+#songThreeButton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 40.5vw;
+    top: 30vw;
+}
+
+#songThreeButton:checked ~ #featuredAlbum > #imageWrapper {
+    left: -200%;
+} 
+
+#songFourButton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 41vw;
+    top: 30vw;
+}
+
+#songFourButton:checked ~ #featuredAlbum > #imageWrapper {
+    left: -300%;
+}
+
+#songFiveButton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: 41.5vw;
+    top: 30vw;
+}
+
+#songFiveButton:checked ~ #featuredAlbum > #imageWrapper {
+    left: -400%;
+}
+
+#songTitlesWrapper{
+    width: 100vw;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    left: -400%;
+    top: 0%;
+}
+
+#euphorosText{
+    width: 20%;
+    height:100%;
+    padding-left: 5%;
+    background-color: transparent;
+    position: relative;
+}
+
+#kingText{
+    width: 20%;
+    height: 100%;
+    padding-left: 6%;
+    background-color: transparent;
+    position: relative;
+    left: 20%;
+    top: -100%;
+}
+
+#teddyPickerText{
+    width: 20%;
+    height:100%;
+    padding-left: 0.5%;
+    background-color: transparent;
+    position: relative;
+    left: 40%;
+    top: -200%;
+}
+
+#wildflowerText{
+    width: 20%;
+    height:100%;
+    padding-left: 2%;
+    background-color: transparent;
+    position: relative;
+    left: 60%;
+    top: -300%;
+}
+
+#candidateText{
+    width: 20%;
+    height:100%;
+    padding-left: 3%;
+    background-color: transparent;
+    position: relative;
+    left: 80%;
+    top: -400%;
+}
+
+#featuredSong{
+    width: 20vw;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-left: 40vw;
+    background-color: transparent;
+    overflow:hidden;
 }
