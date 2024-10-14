@@ -3,11 +3,12 @@
 </head>
 
 <body id="index">
-    <input type = "radio" name = "albumOne" id="songOneButton"> 
-    <input type = "radio" name = "albumOne" id="songTwoButton"> 
-    <input type = "radio" name = "albumOne" id="songThreeButton"> 
-    <input type = "radio" name = "albumOne" id="songFourButton"> 
-    <input type = "radio" name = "albumOne" id="songFiveButton"> 
+    <input type = "radio" name = "albumCover" id="songOneButton" checked> 
+    <input type = "radio" name = "albumCover" id="songTwoButton"> 
+    <input type = "radio" name = "albumCover" id="songThreeButton"> 
+    <input type = "radio" name = "albumCover" id="songFourButton"> 
+    <input type = "radio" name = "albumCover" id="songFiveButton"> 
+   
     <div id = "featuredAlbum">
         <div id = "imageWrapper"> 
             <div id = "reflections"></div>
@@ -17,6 +18,20 @@
             <div id = "favoriteWorstNightmare"></div>
         </div>
     </div>
+
+    <label for="songTwoButton" id="nextAlbumOne"> <div class = "nextButton"></div> </label>
+    <label for="songThreeButton" id="nextAlbumTwo"> <div class = "nextButton"></div>     </label>
+    <label for="songFourButton" id="nextAlbumThree"> <div class = "nextButton"></div> </label>
+    <label for="songFiveButton" id="nextAlbumFour"> <div class = "nextButton"></div>  </label>
+    <label for="songOneButton" id="nextAlbumFive"> <div class = "nextButton"></div> </label>
+    
+    <input type = "radio" name = "songTitle" id="titleOneButton"> 
+    <input type = "radio" name = "songTitle" id="titleTwoButton"> 
+    <input type = "radio" name = "songTitle" id="titleThreeButton"> 
+    <input type = "radio" name = "songTitle" id="titleFourButton" checked> 
+    <input type = "radio" name = "songTitle" id="titleFiveButton">
+    <label for="albumCover" id="next"><div id = "nextButtonTwo"></div></label>
+    <label for="albumCover" id="next"><div id = "previousButtonTwo"></div></label>
     <div id = "featuredSong">
         <div id="songTitlesWrapper">
             <div id="euphorosText">Euphoros</div>
@@ -26,4 +41,11 @@
             <div id = "candidateText">Candidate</div>
         </div>
     </div>  
+
+    <label for="titleTwoButton" id="nextSongOne"> <div class = "nextButton"></div> </label>
+    <label for="titleThreeButton" id="nextSongTwo"> <div class = "nextButton"></div> </label>
+    <label for="titleFourButton" id="nextSongThree"> <div class = "nextButton"></div> </label>
+    <label for="titleFiveButton" id="nextSongFour"> <div class = "nextButton"></div>  </label>
+    <label for="titleOneButton" id="nextSongFive"> <div class = "nextButton"></div> </label>
+
 </body>
