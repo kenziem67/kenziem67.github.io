@@ -561,15 +561,97 @@ input {
     display:none;
 }
 
-#songLink {
-    width: 20vw;
-    height: 5vw;
+.songLink1 {
+    width: 0vw;
+    height: 0vw;
+    padding-left:6vw;
+    padding-top: 2vw;
     position: relative;
-    margin-top: 5vw;
-    margin-left: 40vw;
+    margin-top: -30vw;
+    margin-left: 70vw;
     background-color: transparent;
+    overflow:hidden;
+    border-radius: 45%;
 }
 
-#artistFourButton:checked,  #titleFourButton:checked, #songOneButton:checked ~ #songLink {
-    background-color: red;
+.songLink2 {
+    width: 0vw;
+    height: 0vw;
+    padding-left:6vw;
+    padding-top: 2vw;
+    position: relative;
+    margin-top:-2.5vw;
+    margin-left: 70vw;
+    background-color: transparent;
+    overflow:hidden;
+    border-radius: 45%;
+}
+
+.songLink3 {
+    width: 0vw;
+    height: 0vw;
+    padding-left:6vw;
+    padding-top: 2vw;
+    position: relative;
+    margin-top: -2.5vw;
+    margin-left: 70vw;
+    background-color: transparent;
+    overflow:hidden;
+    border-radius: 45%;
+}
+
+.songLink4 {
+    width: 0vw;
+    height: 0vw;
+    padding-left:6vw;
+    padding-top: 2vw;
+    position: relative;
+    margin-top: -2vw;
+    margin-left: 70vw;
+    background-color: transparent;
+    overflow:hidden;
+    border-radius:45%;
+}
+
+.songLink5 {
+    width: 0vw;
+    height: 0vw;
+    padding-left:6vw;
+    padding-top: 2vw;
+    position: relative;
+    margin-top: -2vw;
+    margin-left: 70vw;
+    background-color: transparent;
+    overflow:hidden;
+    border-radius:45%;
+}
+
+#songOneButton:checked ~ #titleTwoButton:checked ~ #artistFiveButton:checked~ .songLink1 {
+    width: 10vw;
+    height: 5vw;
+    background-color: rgb(243, 91, 116);
+}
+
+#songTwoButton:checked ~ #titleThreeButton:checked ~ #artistFourButton:checked~ .songLink2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: rgb(210, 179, 23);
+}
+
+#songThreeButton:checked ~ #titleFiveButton:checked ~ #artistTwoButton:checked~ .songLink3 {
+    width: 10vw;
+    height: 5vw;
+    background-color: grey;
+}
+
+#songFourButton:checked ~ #titleOneButton:checked ~ #artistOneButton:checked~ .songLink4 {
+    width: 10vw;
+    height: 5vw;
+    background-color: lightskyblue;
+}
+
+#songFiveButton:checked ~ #titleFourButton:checked ~ #artistThreeButton:checked~ .songLink5 {
+    width: 10vw;
+    height: 5vw;
+    background-color: rgb(253, 164, 11);
 }
