@@ -17,6 +17,8 @@ input {
     position: fixed;
     left: 50vw;
     margin-top: 1%;
+    text-align:center;
+    font-size: 1.5vw;
 }
 
 /* holds all albums */
@@ -564,7 +566,7 @@ input {
 .songLink1 {
     width: 0vw;
     height: 0vw;
-    padding-left:6vw;
+    padding-left:5vw;
     padding-top: 2vw;
     position: relative;
     margin-top: -30vw;
@@ -577,7 +579,7 @@ input {
 .songLink2 {
     width: 0vw;
     height: 0vw;
-    padding-left:6vw;
+    padding-left:5vw;
     padding-top: 2vw;
     position: relative;
     margin-top:-2.5vw;
@@ -590,7 +592,7 @@ input {
 .songLink3 {
     width: 0vw;
     height: 0vw;
-    padding-left:6vw;
+    padding-left:5vw;
     padding-top: 2vw;
     position: relative;
     margin-top: -2.5vw;
@@ -603,7 +605,7 @@ input {
 .songLink4 {
     width: 0vw;
     height: 0vw;
-    padding-left:6vw;
+    padding-left:5vw;
     padding-top: 2vw;
     position: relative;
     margin-top: -2vw;
@@ -616,7 +618,7 @@ input {
 .songLink5 {
     width: 0vw;
     height: 0vw;
-    padding-left:6vw;
+    padding-left:5vw;
     padding-top: 2vw;
     position: relative;
     margin-top: -2vw;
