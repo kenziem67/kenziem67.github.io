@@ -28,7 +28,7 @@ input {
     height: 20vw;
     position: relative;
     left: 0%;
-    background-color: red;
+    background-color: transparent;
 }
 
 #featuredAlbum{
@@ -36,7 +36,7 @@ input {
     height: 20vw;
     margin-top: 15vh;
     margin-left: 40vw;
-    background-color: green;
+    background-color: transparent;
     overflow:hidden;
 }
 
