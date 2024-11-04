@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    overflow:hidden;
+    font-size: 2vw;
+}
+
+#box1{
+    width: 20vw;
+    height: 20vw;
+    background-color: red;
+    position: relative;
+    left: 20%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#box2{
+    width: 20vw;
+    height: 20vw;
+    background-color: blue;
+    position: relative;
+    left: 40%;
+    top: 25%;
+    cursor: pointer;
+}
