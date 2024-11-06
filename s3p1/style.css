@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: grey;
     overflow:hidden;
     font-size: 2vw;
 }
@@ -7,7 +7,7 @@ body{
 #box1{
     width: 20vw;
     height: 20vw;
-    background-color: red;
+    background-color: white;
     position: relative;
     left: 20%;
     top: 25%;
@@ -17,7 +17,7 @@ body{
 #box2{
     width: 20vw;
     height: 20vw;
-    background-color: blue;
+    background-color: black;
     position: relative;
     left: 40%;
     top: 25%;
