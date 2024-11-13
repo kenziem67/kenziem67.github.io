@@ -1,7 +1,10 @@
+
 body{
     background-color: grey;
     overflow:hidden;
     font-size: 2vw;
+    overflow:scroll;
+    scroll-behavior:auto;
 }
 
 #box1{
@@ -31,4 +34,20 @@ body{
     position: relative;
     top: 25vh;
     left: 10vw;
+    scroll-behavior: smooth;
+}
+
+#scriptTextWrapper{
+    width: 80vw;
+    height: fit-content;
+    background-color:white;
+    position: relative;
+    top: 25vh;
+    left: 10vw;
+}
+#macarenaLink{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    position: relative;
 }
