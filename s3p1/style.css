@@ -32,7 +32,7 @@ body{
     height: fit-content;
     background-color:white;
     position: relative;
-    top: 25vh;
+    margin-top: 5vh;
     left: 10vw;
     scroll-behavior: smooth;
 }
@@ -42,7 +42,7 @@ body{
     height: fit-content;
     background-color:white;
     position: relative;
-    top: 25vh;
+    margin-top: 5vh;
     left: 10vw;
 }
 #macarenaLink{
@@ -50,4 +50,21 @@ body{
     height: fit-content;
     background-color: white;
     position: relative;
+}
+
+#results{
+    width: fit-content;
+    height: fit-content;
+    background-color:white;
+    position: relative;
+    margin-top: 5vh;
+}
+
+#imagesWrapper{
+    width: fit-content;
+    height: fit-content;
+    background-color:white;
+    position: relative;
+    margin-top: 5vh;
+    left: 10vw;
 }
