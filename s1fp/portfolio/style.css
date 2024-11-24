@@ -1,0 +1,105 @@
+/* home page */
+#homeBackground{
+    position: relative;
+    /* width: 1440px;   */
+    width: 1457px;
+    margin-left:calc(50vw - 760px);
+    height: 5812px;
+    background: linear-gradient(180deg, #A4CEFF 0%, #A4CEFF 14.32%, #D76310 40.24%, #D76310 65.14%, #96572A 73.18%, #1F0E03 100%);
+}
+
+#sectionOneBackground{
+    position: relative;
+    width: 1520px;
+    height: 1024px;
+    background: #694624;
+}
+
+
+
+#mantleText{
+    position: absolute;
+    width: 942px;
+    height: 294px;
+    left: 30%;
+    top: 2457px;
+}
+#crustText{
+    position: absolute;
+    width: 942px;
+    height: 294px;
+    left: -38%;
+    top: 900px;
+}
+
+#coreText{
+    position: absolute;
+    width: 942px;
+    height: 294px;
+    left: -43%;
+    top: 5100px;
+}
+
+.headerText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 98px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.subtitleText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 98px;
+    /* identical to box height */
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+#sectionOne{
+    position: absolute;
+    width: 519px;
+    height: 98px;
+    left: -10%;
+    top: 1000px;
+}
+
+#sectionTwo{
+    position: absolute;
+    width: 519px;
+    height: 98px;
+    left: 59%;
+    top: 2553px;
+}
+
+#sectionThree{
+    position: absolute;
+    width: 519px;
+    height: 98px;
+    left: -10%;
+    top: 5200px;
+}
+
+#volcano{
+    position: absolute;
+    width: 1457px;
+    height: 2367px;
+    left: -8px;
+    top: 49px;
+    background-image: "lava.png";
+}
+
+#plant{
+    position: absolute;
+    width: 101px;
+    height: 166px;
+    left: 75px;
+    top: 620px;
+}
+
