@@ -8,13 +8,6 @@
     background: linear-gradient(180deg, #A4CEFF 0%, #A4CEFF 14.32%, #D76310 40.24%, #D76310 65.14%, #96572A 73.18%, #1F0E03 100%);
 }
 
-#sectionOneBackground{
-    position: relative;
-    width: 100vw;
-    height: 400vw;
-    background: #694624;
-}
-
 .headerText{
     font-family: 'ADLaM Display';
     font-style: normal;
@@ -37,15 +30,15 @@
     width: fit-content;
     height: fit-content;
     left: 5%;
-    top: -27%;
+    top: -24%;
 }
 
 #sectionOne{
-    position: relative;
+    position: absolute;
     width: fit-content;
     height: fit-content;
     left: 5%;
-    top: -10%;
+    top: 100%;
 }
 
 #mantleText{
@@ -80,21 +73,59 @@
     top: 100%;
 }
 
-/* positioning works */
 #volcano{
     position: relative;
     width: 100vw;
     height: 160vw;
-    left: -8px;
+    left: 0;
     top: 10vh;
     background-image: "lava.png";
 }
 
-/* positioning works */
-#plant{
+/* #plant{
     position: relative;
     width: 5vw;
     height: 10vw;
     left: 10%;
-    top: -28.5%;
+    top: -110vw;
+} */
+
+/* SECTION ONE PAGE */
+
+#sectionOneBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #694624;
+}
+
+#dirt{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+/* SECTION TWO PAGE */
+
+#sectionTwoBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #D76310;
+}
+
+#magma{
+    position: absolute;
+    width: 100vw;;
+    height: 100vh;
+}
+
+/* SECTION THREE PAGE */
+#sectionThreeBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#1F0E03 70%, #FDCA6B 100%);
 }
