@@ -28,7 +28,14 @@ a {
 
     color: #FFFFFF;
 }
-
+#title{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    left: 2%;
+    top: -38.5%;
+}
 #crustText{
     position: relative;
     width: fit-content;
