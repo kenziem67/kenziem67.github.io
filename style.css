@@ -1,125 +1,208 @@
-body{
-    background-image: url("space.jpg");
-    overflow:hidden;
-    background-size: 800px;
+a {
+    text-decoration: underline white; 
 }
 
-#dot{
-  opacity: 0;
-    width: 70vw;
-    height: 40vw;
-    border-radius: 50%;
-    /* background-image: url("space.jpg"); */
-    background-size: 90% 90%;
-    background-position: -16px 0;
-    border: 1px dashed rgba(10, 219, 83, 0.3);
-    position: absolute;
-    opacity: 0.8;
-    top: 25%;
-    left: 25%;
-    box-shadow: 0 0 90px 50px black inset;
-}
-
-#dot:hover{
-  background-image: url("paleBlueDot.jpg");
-  border: 0px;
-  background-position: 0 0;
-  background-size: 102% 102%;
-}
-
-#circle{
-    width: 5%;
-    height: 7%;
-    border-radius:50%;
-    background-color: transparent;
-    border:4px solid transparent;
+/* home page */
+#homeBackground{
     position: relative;
-    left: 58%;
-    top: 26%;
+    /* width: 1440px;   */
+    width: 100vw;
+    /* margin-left:calc(50vw - 760px); */
+    height: 400vw;
+    background: linear-gradient(180deg, #A4CEFF 0%, #A4CEFF 14.32%, #D76310 40.24%, #D76310 65.14%, #96572A 73.18%, #1F0E03 100%);
 }
 
-#introText{
-    font-size: 100px;
-  }
+.headerText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    color: #FFFFFF;
+}
 
- .text{
-    font-size: 50px;
-    position: absolute;
-    top: 5%;
+.subtitleText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-size: 2vw;
     text-align: left;
-    font-weight: bold;
-    font-family: serif;
-    font-style: italic;
-    color: #0adb53;
-  } 
 
-  #dot:hover #circle{
-    border-color: red;
-  }
+    color: #FFFFFF;
+}
 
-  #globe{
-    width: 50vw;
-    height: 50vw;
-    border-radius:50%;
-    background-image: url("earth.jpg");
-    background-size: 100% 100%;
-    background-position: 0 0;
+#crustText{
     position: relative;
-    top:10%;
-    left:25%;
-  }
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: -24%;
+}
 
-  /* #globe:hover {
-    opacity: .1;
-  } */
+#sectionOne{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 100%;
+}
 
-  #pin{
-    width:1vw;
-    height:1vw;
-    background-color:transparent;
-    border-radius: 50%;
+#mantleText{
     position: relative;
-    top: 40%;
+    width: fit-content;
+    height: fit-content;
     left: 70%;
-  }
+    top: 0%;
+}
 
-  #secondHereWrap{
-    font-size: 100px;
-    text-decoration-line: underline;
-    height:100px;
-    position:absolute;
-    left: 200px;
-    top: -30px;
-    background-color: transparent;
-    text-wrap:balance;
-    /* overflow:hidden; */
-    transition: 1000000s;
-  }
-
-  #secondHereWrap:hover:after {
-    content: "-->";
-    pointer-events: none;
+#sectionTwo{
     position: absolute;
-    top: 0;
-    right: -100%;
-  }
+    width: fit-content;
+    height: fit-content;
+    left: 0%;
+    top: 100%;
+}
 
-  #secondHereWrap:hover{
+#coreText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 40%;
+}
+
+#sectionThree{
     position: absolute;
-    left: 200px;
-    top: -30px;
-    /* width:450px; */
-    transform: rotate(29deg);
-    transform-origin: left bottom;
-    transition: 0s;
-  }
+    width: fit-content;
+    height: fit-content;
+    left: 0%;
+    top: 100%;
+}
 
-  #pin:hover{
-    background-color: red;
-  }
+#volcano{
+    position: relative;
+    width: 100vw;
+    height: 160vw;
+    left: 0;
+    top: 10vh;
+    background-image: "lava.png";
+}
 
-  
-  
+/* #plant{
+    position: relative;
+    width: 5vw;
+    height: 10vw;
+    left: 10%;
+    top: -110vw;
+} */
 
+/* SECTION ONE PAGE */
 
+#sectionOneBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #694624;
+}
+
+#dirt{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+#s1p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s1p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 30%;
+}
+
+#s1fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 20%;
+    top: 58%;
+}
+
+/* SECTION TWO PAGE */
+
+#sectionTwoBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #D76310;
+}
+
+#magma{
+    position: absolute;
+    width: 100vw;;
+    height: 100vh;
+}
+
+#s2p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s2p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 65%;
+    top: 30%;
+}
+
+#s2fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 58%;
+}
+
+/* SECTION THREE PAGE */
+#sectionThreeBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#1F0E03 70%, #FDCA6B 100%);
+}
+
+#s3p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s3p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 65%;
+    top: 30%;
+}
+
+#s3fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 58%;
+}
 
