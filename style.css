@@ -1,7 +1,12 @@
 a {
     text-decoration: underline white; 
 }
-
+p{
+    font-family: 'Open Sans';
+}
+h1{
+    font-family: 'Open Sans';
+}
 /* home page */
 #homeBackground{
     position: relative;
@@ -36,6 +41,15 @@ a {
     left: 2%;
     top: -38.5%;
 }
+
+#readingResponseTitle{
+    position: relative;
+    width: 10vw;
+    height: 25vw;
+    left: 5%;
+    top: -32%;
+}
+
 #crustText{
     position: relative;
     width: fit-content;
@@ -212,4 +226,37 @@ a {
     left: 5%;
     top: 58%;
 }
+/* readings page */
+#readingsBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #A4CEFF;
+}
 
+#readingTitle{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    left: 2%;
+    top: 5%;
+}
+
+#cloud{
+    position:absolute;
+    width: 100vw;;
+    height: 30vh;
+    top:5%;
+}
+
+#textWrapper{
+    width: 80vw;
+    height: 50%;
+    background-color:white;
+    position: absolute;
+    top: 45%;
+    left: 10vw;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
