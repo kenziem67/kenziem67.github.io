@@ -1,0 +1,262 @@
+a {
+    text-decoration: underline white; 
+}
+p{
+    font-family: 'Open Sans';
+}
+h1{
+    font-family: 'Open Sans';
+}
+/* home page */
+#homeBackground{
+    position: relative;
+    /* width: 1440px;   */
+    width: 100vw;
+    /* margin-left:calc(50vw - 760px); */
+    height: 400vw;
+    background: linear-gradient(180deg, #A4CEFF 0%, #A4CEFF 14.32%, #D76310 40.24%, #D76310 65.14%, #96572A 73.18%, #1F0E03 100%);
+}
+
+.headerText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-size: 5vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subtitleText{
+    font-family: 'ADLaM Display';
+    font-style: normal;
+    font-size: 2vw;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+#title{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    left: 2%;
+    top: -38.5%;
+}
+
+#readingResponseTitle{
+    position: relative;
+    width: 10vw;
+    height: 25vw;
+    left: 5%;
+    top: -32%;
+}
+
+#crustText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: -24%;
+}
+
+#sectionOne{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 100%;
+}
+
+#mantleText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 70%;
+    top: 0%;
+}
+
+#sectionTwo{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0%;
+    top: 100%;
+}
+
+#coreText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 40%;
+}
+
+#sectionThree{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0%;
+    top: 100%;
+}
+
+#volcano{
+    position: relative;
+    width: 100vw;
+    height: 160vw;
+    left: 0;
+    top: 10vh;
+    background-image: "lava.png";
+}
+
+/* #plant{
+    position: relative;
+    width: 5vw;
+    height: 10vw;
+    left: 10%;
+    top: -110vw;
+} */
+
+/* SECTION ONE PAGE */
+
+#sectionOneBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #694624;
+}
+
+#dirt{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+}
+
+#s1p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s1p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 50%;
+    top: 30%;
+}
+
+#s1fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 20%;
+    top: 58%;
+}
+
+/* SECTION TWO PAGE */
+
+#sectionTwoBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #D76310;
+}
+
+#magma{
+    position: absolute;
+    width: 100vw;;
+    height: 100vh;
+}
+
+#s2p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s2p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 65%;
+    top: 30%;
+}
+
+#s2fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 58%;
+}
+
+/* SECTION THREE PAGE */
+#sectionThreeBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(#1F0E03 70%, #FDCA6B 100%);
+}
+
+#s3p1Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 10%;
+}
+
+#s3p2Text{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 65%;
+    top: 30%;
+}
+
+#s3fpText{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 5%;
+    top: 58%;
+}
+/* readings page */
+#readingsBackground{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #A4CEFF;
+}
+
+#readingTitle{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    left: 2%;
+    top: 5%;
+}
+
+#cloud{
+    position:absolute;
+    width: 100vw;;
+    height: 30vh;
+    top:5%;
+}
+
+#textWrapper{
+    width: 80vw;
+    height: 50%;
+    background-color:white;
+    position: absolute;
+    top: 45%;
+    left: 10vw;
+    overflow:scroll;
+    scroll-behavior: smooth;
+}
