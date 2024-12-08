@@ -22,8 +22,7 @@ button, input {
     margin: 5px;
 }
 
-input:focus ~ canvas, input:active ~ canvas
-/* , input:hover ~ canvas   */
-{
-  background-color:(red);
+input:focus{
+  background-color: lightblue;
 }
+  
