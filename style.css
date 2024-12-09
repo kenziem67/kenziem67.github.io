@@ -1,11 +1,16 @@
 a {
-    text-decoration: underline white; 
+    text-decoration: underline white;
+    color:white; 
 }
 p{
     font-family: 'Open Sans';
 }
 h1{
     font-family: 'Open Sans';
+}
+body{
+    /* overflow:hidden; */
+    scrollbar-width: 0;
 }
 /* home page */
 #homeBackground{
@@ -107,16 +112,33 @@ h1{
     background-image: "lava.png";
 }
 
-/* #plant{
-    position: relative;
-    width: 5vw;
-    height: 10vw;
-    left: 10%;
-    top: -110vw;
-} */
 
 /* SECTION ONE PAGE */
+#shovel{
+    position:relative;
+    width:5vw;
+    height:10vh;
+    left: 90%;
+    top:-27.5%;
+    background-image: "shovel.png";
 
+}
+#boneArrow{
+    position:relative;
+    width:7vw;
+    height:10vh;
+    left: 250%;
+    top:70vh;
+    background-image: "boneArrow.png";
+}
+#lavaArrow{
+    position:relative;
+    width:7vw;
+    height:10vh;
+    left: -250%;
+    top:70vh;
+    background-image: "lavaArrow.png";
+}
 #sectionOneBackground{
     position: relative;
     width: 100vw;
@@ -256,8 +278,9 @@ h1{
     background-color:white;
     padding: 2%;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 10vw;
     overflow:scroll;
     scroll-behavior: smooth;
+    margin-bottom:5vh;
 }
