@@ -8,9 +8,10 @@ p{
 h1{
     font-family: 'Open Sans';
 }
-body{
-    /* overflow:hidden; */
+html, body{
     scrollbar-width: 0;
+    scroll-behavior: smooth;
+    margin: 0;
 }
 /* home page */
 #homeBackground{
@@ -43,24 +44,24 @@ body{
     width: fit-content;
     height: fit-content;
     color: black;
-    left: 2%;
-    top: -38.5%;
+    left: 1vw;
+    top: 5vw;
 }
 
 #readingResponseTitle{
     position: relative;
     width: 10vw;
-    height: 25vw;
-    left: 5%;
-    top: -32%;
+    height: 15vw;
+    left: 5vw;
+    top: 22vw;;
 }
 
 #crustText{
     position: relative;
     width: fit-content;
     height: fit-content;
-    left: 5%;
-    top: -24%;
+    left: 5vw;
+    top: 45vw;
 }
 
 #sectionOne{
@@ -75,8 +76,8 @@ body{
     position: relative;
     width: fit-content;
     height: fit-content;
-    left: 70%;
-    top: 0%;
+    left: 70vw;
+    top: 150vw;
 }
 
 #sectionTwo{
@@ -91,8 +92,8 @@ body{
     position: relative;
     width: fit-content;
     height: fit-content;
-    left: 5%;
-    top: 40%;
+    left: 5vw;
+    top: 275vw;
 }
 
 #sectionThree{
@@ -104,11 +105,11 @@ body{
 }
 
 #volcano{
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 160vw;
     left: 0;
-    top: 10vh;
+    top: 0vw;
     background-image: "lava.png";
 }
 
@@ -116,27 +117,27 @@ body{
 /* SECTION ONE PAGE */
 #shovel{
     position:relative;
-    width:5vw;
-    height:10vh;
-    left: 90%;
-    top:-27.5%;
+    width:7vw;
+    height:5vw;
+    left: 90vw;
+    top:45vw;
     background-image: "shovel.png";
 
 }
 #boneArrow{
-    position:relative;
+    position:absolute;
     width:7vw;
-    height:10vh;
-    left: 250%;
-    top:70vh;
+    height:7vw;
+    left: 70vw;
+    top:30vw;
     background-image: "boneArrow.png";
 }
 #lavaArrow{
-    position:relative;
+    position:absolute;
     width:7vw;
-    height:10vh;
-    left: -250%;
-    top:70vh;
+    height:8vw;
+    right: 60vw;
+    top:15vw;
     background-image: "lavaArrow.png";
 }
 #sectionOneBackground{
@@ -283,4 +284,13 @@ body{
     overflow:scroll;
     scroll-behavior: smooth;
     margin-bottom:5vh;
+}
+
+#descriptionWrapper{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: relative;
+    top: 1%;
+    left: 0%;
 }
