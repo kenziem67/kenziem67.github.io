@@ -140,6 +140,17 @@ html, body{
     top:15vw;
     background-image: "lavaArrow.png";
 }
+
+#backtotop{
+    position:fixed;
+    width:4vw;
+    height:1vw;
+    right: 0vw;
+    top:0vw;
+    margin: 2vw;
+    background-image: "backToTop.png";
+}
+
 #sectionOneBackground{
     position: relative;
     width: 100vw;
@@ -287,6 +298,14 @@ html, body{
 }
 
 #descriptionWrapper{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+#proj1Wrapper{
     width: fit-content;
     height: fit-content;
     background-color: transparent;
